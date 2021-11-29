@@ -1,0 +1,355 @@
+-not-current-submenu menu-top menu-icon-elementor_library" id="menu-posts-elementor_library">
+	<a href='edit.php?post_type=elementor_library&tabs_group=library' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-elementor_library" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-page' aria-hidden='true'><br /></div><div class='wp-menu-name'>Templates</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Templates</li><li class="wp-first-item"><a href='edit.php?post_type=elementor_library&tabs_group=library' class="wp-first-item">Saved Templates</a></li><li class="elementor-app-link"><a href='http://localhost/wp-course/wp-admin/admin.php?page=elementor-app&ver=3.4.8#site-editor/promotion' class="elementor-app-link">Theme Builder</a></li><li><a href='edit.php?post_type=elementor_library&#038;page=e-landing-page'>Landing Pages</a></li><li><a href='http://localhost/wp-course/wp-admin/admin.php?page=elementor-app&ver=3.4.8#/kit-library'>Kit Library</a></li><li><a href='edit.php?post_type=elementor_library&#038;page=popup_templates'>Popups</a></li><li><a href='http://localhost/wp-course/wp-admin/edit.php?post_type=elementor_library#add_new'>Add New</a></li><li><a href='edit-tags.php?taxonomy=elementor_library_category&amp;post_type=elementor_library'>Categories</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_wpforms-overview menu-top-last" id="toplevel_page_wpforms-overview"><a href='admin.php?page=wpforms-overview' class="wp-has-submenu wp-not-current-submenu menu-top toplevel_page_wpforms-overview menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image svg' style="background-image:url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGZpbGw9IiM5ZWEzYTgiIGQ9Ik02NDMgOTExdjEyOGgtMjUydi0xMjhoMjUyem0wLTI1NXYxMjdoLTI1MnYtMTI3aDI1MnptNzU4IDUxMXYxMjhoLTM0MXYtMTI4aDM0MXptMC0yNTZ2MTI4aC02NzJ2LTEyOGg2NzJ6bTAtMjU1djEyN2gtNjcydi0xMjdoNjcyem0xMzUgODYwdi0xMjQwcTAtOC02LTE0dC0xNC02aC0zMmwtMzc4IDI1Ni0yMTAtMTcxLTIxMCAxNzEtMzc4LTI1NmgtMzJxLTggMC0xNCA2dC02IDE0djEyNDBxMCA4IDYgMTR0MTQgNmgxMjQwcTggMCAxNC02dDYtMTR6bS04NTUtMTExMGwxODUtMTUwaC00MDZ6bTQzMCAwbDIyMS0xNTBoLTQwNnptNTUzLTEzMHYxMjQwcTAgNjItNDMgMTA1dC0xMDUgNDNoLTEyNDBxLTYyIDAtMTA1LTQzdC00My0xMDV2LTEyNDBxMC02MiA0My0xMDV0MTA1LTQzaDEyNDBxNjIgMCAxMDUgNDN0NDMgMTA1eiIvPjwvc3ZnPg==')" aria-hidden='true'><br /></div><div class='wp-menu-name'>WPForms</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>WPForms</li><li class="wp-first-item"><a href='admin.php?page=wpforms-overview' class="wp-first-item">All Forms</a></li><li><a href='admin.php?page=wpforms-builder'>Add New</a></li><li><a href='admin.php?page=wpforms-entries'>Entries</a></li><li><a href='admin.php?page=wpforms-settings'>Settings</a></li><li><a href='admin.php?page=wpforms-tools'>Tools</a></li><li><a href='admin.php?page=wpforms-addons'><span style="color:#f18500">Addons</span></a></li><li><a href='admin.php?page=wpforms-analytics'>Analytics</a></li><li><a href='admin.php?page=wpforms-smtp'>SMTP</a></li><li><a href='admin.php?page=wpforms-about'>About Us</a></li><li><a href='admin.php?page=wpforms-community'>Community</a></li></ul></li>
+	<li class="wp-not-current-submenu wp-menu-separator" aria-hidden="true"><div class="separator"></div></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+	<a href='themes.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-appearance menu-top-first" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-appearance' aria-hidden='true'><br /></div><div class='wp-menu-name'>Appearance</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Appearance</li><li class="wp-first-item"><a href='themes.php' class="wp-first-item">Themes <span class="update-plugins count-0"><span class="theme-count">0</span></span></a></li><li class="hide-if-no-customize"><a href='customize.php?return=%2Fwp-course%2Fwp-admin%2Fadmin.php%3Fpage%3Delementor' class="hide-if-no-customize">Customize</a></li><li><a href='themes.php?page=starter-templates'>Starter Templates</a></li><li><a href='themes.php?page=kadence-starter-templates'>Starter Templates</a></li><li><a href='theme-editor.php'>Theme Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" id="menu-plugins">
+	<a href='plugins.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-plugins" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-plugins' aria-hidden='true'><br /></div><div class='wp-menu-name'>Plugins <span class="update-plugins count-0"><span class="plugin-count">0</span></span></div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Plugins <span class="update-plugins count-0"><span class="plugin-count">0</span></span></li><li class="wp-first-item"><a href='plugins.php' class="wp-first-item">Installed Plugins</a></li><li><a href='plugin-install.php'>Add New</a></li><li><a href='plugin-editor.php'>Plugin Editor</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" id="menu-users">
+	<a href='users.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-users" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-users' aria-hidden='true'><br /></div><div class='wp-menu-name'>Users</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Users</li><li class="wp-first-item"><a href='users.php' class="wp-first-item">All Users</a></li><li><a href='user-new.php'>Add New</a></li><li><a href='profile.php'>Profile</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" id="menu-tools">
+	<a href='tools.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-tools" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-tools' aria-hidden='true'><br /></div><div class='wp-menu-name'>Tools</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Tools</li><li class="wp-first-item"><a href='tools.php' class="wp-first-item">Available Tools</a></li><li><a href='import.php'>Import</a></li><li><a href='export.php'>Export</a></li><li><a href='site-health.php'>Site Health</a></li><li><a href='export-personal-data.php'>Export Personal Data</a></li><li><a href='erase-personal-data.php'>Erase Personal Data</a></li></ul></li>
+	<li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" id="menu-settings">
+	<a href='options-general.php' class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-settings menu-top-last" aria-haspopup="true"><div class="wp-menu-arrow"><div></div></div><div class='wp-menu-image dashicons-before dashicons-admin-settings' aria-hidden='true'><br /></div><div class='wp-menu-name'>Settings</div></a>
+	<ul class='wp-submenu wp-submenu-wrap'><li class='wp-submenu-head' aria-hidden='true'>Settings</li><li class="wp-first-item"><a href='options-general.php' class="wp-first-item">General</a></li><li><a href='options-writing.php'>Writing</a></li><li><a href='options-reading.php'>Reading</a></li><li><a href='options-discussion.php'>Discussion</a></li><li><a href='options-media.php'>Media</a></li><li><a href='options-permalink.php'>Permalinks</a></li><li><a href='options-privacy.php'>Privacy</a></li></ul></li><li id="collapse-menu" class="hide-if-no-js"><button type="button" id="collapse-button" aria-label="Collapse Main menu" aria-expanded="true"><span class="collapse-button-icon" aria-hidden="true"></span><span class="collapse-button-label">Collapse menu</span></button></li></ul>
+</div>
+</div>
+<div id="wpcontent">
+
+		<div id="wpadminbar" class="nojq nojs">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
+				<ul id='wp-admin-bar-root-default' class="ab-top-menu"><li id='wp-admin-bar-menu-toggle'><a class='ab-item' href='#'><span class="ab-icon" aria-hidden="true"></span><span class="screen-reader-text">Menu</span></a></li><li id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://localhost/wp-course/wp-admin/about.php'><span class="ab-icon" aria-hidden="true"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-wp-logo-default' class="ab-submenu"><li id='wp-admin-bar-about'><a class='ab-item' href='http://localhost/wp-course/wp-admin/about.php'>About WordPress</a></li></ul><ul id='wp-admin-bar-wp-logo-external' class="ab-sub-secondary ab-submenu"><li id='wp-admin-bar-wporg'><a class='ab-item' href='https://wordpress.org/'>WordPress.org</a></li><li id='wp-admin-bar-documentation'><a class='ab-item' href='https://wordpress.org/support/'>Documentation</a></li><li id='wp-admin-bar-support-forums'><a class='ab-item' href='https://wordpress.org/support/forums/'>Support</a></li><li id='wp-admin-bar-feedback'><a class='ab-item' href='https://wordpress.org/support/forum/requests-and-feedback'>Feedback</a></li></ul></div></li><li id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://localhost/wp-course/'>wp course</a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-site-name-default' class="ab-submenu"><li id='wp-admin-bar-view-site'><a class='ab-item' href='http://localhost/wp-course/'>Visit Site</a></li></ul></div></li><li id='wp-admin-bar-comments'><a class='ab-item' href='http://localhost/wp-course/wp-admin/edit-comments.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0 Comments in moderation</span></a></li><li id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://localhost/wp-course/wp-admin/post-new.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-new-content-default' class="ab-submenu"><li id='wp-admin-bar-new-post'><a class='ab-item' href='http://localhost/wp-course/wp-admin/post-new.php'>Post</a></li><li id='wp-admin-bar-new-media'><a class='ab-item' href='http://localhost/wp-course/wp-admin/media-new.php'>Media</a></li><li id='wp-admin-bar-new-page'><a class='ab-item' href='http://localhost/wp-course/wp-admin/post-new.php?post_type=page'>Page</a></li><li id='wp-admin-bar-new-e-landing-page'><a class='ab-item' href='http://localhost/wp-course/wp-admin/edit.php?action=elementor_new_post&#038;post_type=e-landing-page&#038;template_type=landing-page&#038;_wpnonce=8e552a6494#library'>Landing Page</a></li><li id='wp-admin-bar-new-elementor_library'><a class='ab-item' href='http://localhost/wp-course/wp-admin/post-new.php?post_type=elementor_library'>Template</a></li><li id='wp-admin-bar-new-user'><a class='ab-item' href='http://localhost/wp-course/wp-admin/user-new.php'>User</a></li><li id='wp-admin-bar-wpforms'><a class='ab-item' href='http://localhost/wp-course/wp-admin/admin.php?page=wpforms-builder'>WPForms</a></li></ul></div></li><li id='wp-admin-bar-wpforms-menu' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://localhost/wp-course/wp-admin/admin.php?page=wpforms-overview'>WPForms</a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-wpforms-menu-default' class="ab-submenu"><li id='wp-admin-bar-wpforms-forms'><a class='ab-item' href='http://localhost/wp-course/wp-admin/admin.php?page=wpforms-overview'>All Forms</a></li><li id='wp-admin-bar-wpforms-add-new'><a class='ab-item' href='http://localhost/wp-course/wp-admin/admin.php?page=wpforms-builder'>Add New</a></li><li id='wp-admin-bar-wpforms-community'><a class='ab-item' href='https://www.facebook.com/groups/wpformsvip/' target='_blank' rel='noopener noreferrer'>Community</a></li><li id='wp-admin-bar-wpforms-support'><a class='ab-item' href='https://wpforms.com/docs/' target='_blank' rel='noopener noreferrer'>Support</a></li></ul></div></li></ul><ul id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu"><li id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item' aria-haspopup="true" href='http://localhost/wp-course/wp-admin/profile.php'>Howdy, <span class="display-name">saadane</span><img alt='' src='http://1.gravatar.com/avatar/1d90df5437acc99b4ce865ddb0878161?s=26&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/1d90df5437acc99b4ce865ddb0878161?s=52&#038;d=mm&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' loading='lazy'/></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-user-actions' class="ab-submenu"><li id='wp-admin-bar-user-info'><a class='ab-item' tabindex="-1" href='http://localhost/wp-course/wp-admin/profile.php'><img alt='' src='http://1.gravatar.com/avatar/1d90df5437acc99b4ce865ddb0878161?s=64&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/1d90df5437acc99b4ce865ddb0878161?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' loading='lazy'/><span class='display-name'>saadane</span></a></li><li id='wp-admin-bar-edit-profile'><a class='ab-item' href='http://localhost/wp-course/wp-admin/profile.php'>Edit Profile</a></li><li id='wp-admin-bar-logout'><a class='ab-item' href='http://localhost/wp-course/wp-login.php?action=logout&#038;_wpnonce=e740949e16'>Log Out</a></li></ul></div></li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost/wp-course/wp-login.php?action=logout&#038;_wpnonce=e740949e16">Log Out</a>
+					</div>
+
+				<div id="e-admin-top-bar-root">
+		</div>
+		
+<div id="wpbody" role="main">
+
+<div id="wpbody-content">
+		<div id="screen-meta" class="metabox-prefs">
+
+			<div id="contextual-help-wrap" class="hidden no-sidebar" tabindex="-1" aria-label="Contextual Help Tab">
+				<div id="contextual-help-back"></div>
+				<div id="contextual-help-columns">
+					<div class="contextual-help-tabs">
+						<ul>
+												</ul>
+					</div>
+
+					
+					<div class="contextual-help-tabs-wrap">
+											</div>
+				</div>
+			</div>
+				</div>
+					<div id="astra-sites-5-start-notice" class="astra-notice notice is-dismissible astra-sites-5-star notice-info" data-repeat-notice-after="">
+				<div class="notice-container">
+										<div class="notice-image">
+							<img src="http://localhost/wp-course/wp-content/plugins/astra-sites/inc/assets/images/logo.svg" class="custom-logo" alt="Starter Templates" style="max-width: 90px"></div>
+							<div class="notice-content">
+								<div class="notice-heading">
+									Hello! Seems like you have used Starter Templates to build this website &mdash; Thanks a ton!
+								</div>
+								Could you please do us a BIG favor and give it a 5-star rating on WordPress? This would boost our motivation and help other users make a comfortable decision while choosing the Starter Templates.<br />
+								<div class="astra-review-notice-container">
+									<a href="https://wordpress.org/support/plugin/astra-sites/reviews/?filter=5#new-post" class="astra-notice-close astra-review-notice button-primary" target="_blank">
+									Ok, you deserve it
+									</a>
+								<span class="dashicons dashicons-calendar"></span>
+									<a href="#" data-repeat-notice-after="2592000" class="astra-notice-close astra-review-notice">
+									Nope, maybe later
+									</a>
+								<span class="dashicons dashicons-smiley"></span>
+									<a href="#" class="astra-notice-close astra-review-notice">
+									I already did
+									</a>
+								</div>
+							</div>				</div>
+			</div>
+					<div class="wrap">
+			<h1 class="wp-heading-inline">Elementor</h1>
+			<div id="elementor-settings-tabs-wrapper" class="nav-tab-wrapper">
+				<a id='elementor-settings-tab-general' class='nav-tab nav-tab-active' href='#tab-general'>General</a><a id='elementor-settings-tab-style' class='nav-tab' href='#tab-style'>Style</a><a id='elementor-settings-tab-integrations' class='nav-tab' href='#tab-integrations'>Integrations</a><a id='elementor-settings-tab-advanced' class='nav-tab' href='#tab-advanced'>Advanced</a><a id='elementor-settings-tab-experiments' class='nav-tab' href='#tab-experiments'>Experiments</a>			</div>
+			<form id="elementor-settings-form" method="post" action="options.php">
+				<input type='hidden' name='option_page' value='elementor' /><input type="hidden" name="action" value="update" /><input type="hidden" id="_wpnonce" name="_wpnonce" value="f7efe7e8dd" /><input type="hidden" name="_wp_http_referer" value="/wp-course/wp-admin/admin.php?page=elementor" /><div id='tab-general' class='elementor-settings-form-page elementor-active'><table class="form-table"><tr class="_elementor_settings_update_time"><th scope="row"></th><td>		<input type="hidden" id="_elementor_settings_update_time" name="_elementor_settings_update_time" value="" class="regular-text"/>
+				</td></tr><tr class="elementor_cpt_support"><th scope="row">Post Types</th><td>			<label>
+				<input type="checkbox" name="elementor_cpt_support[]" value="post" checked='checked' />
+				Posts			</label><br />
+					<label>
+				<input type="checkbox" name="elementor_cpt_support[]" value="page" checked='checked' />
+				Pages			</label><br />
+					<label>
+				<input type="checkbox" name="elementor_cpt_support[]" value="e-landing-page" />
+				Landing Pages			</label><br />
+				</td></tr><tr class="elementor_disable_color_schemes"><th scope="row">Disable Default Colors</th><td>		<label>
+			<input type="checkbox" id="elementor_disable_color_schemes" name="elementor_disable_color_schemes" value="yes" checked='checked' />
+			Checking this box will disable Elementor&#039;s Default Colors, and make Elementor inherit the colors from your theme.		</label>
+		</td></tr><tr class="elementor_disable_typography_schemes"><th scope="row">Disable Default Fonts</th><td>		<label>
+			<input type="checkbox" id="elementor_disable_typography_schemes" name="elementor_disable_typography_schemes" value="yes" checked='checked' />
+			Checking this box will disable Elementor&#039;s Default Fonts, and make Elementor inherit the fonts from your theme.		</label>
+		</td></tr></table><h2>Improve Elementor</h2><table class="form-table"><tr class="elementor_allow_tracking"><th scope="row">Usage Data Sharing</th><td>		<label>
+			<input type="checkbox" id="elementor_allow_tracking" name="elementor_allow_tracking" value="yes" />
+			Become a super contributor by opting in to share non-sensitive plugin data and to receive periodic email updates from us. <a href="https://go.elementor.com/usage-data-tracking/" target="_blank">Learn more.</a>		</label>
+		</td></tr></table></div><div id='tab-style' class='elementor-settings-form-page'><table class="form-table"><tr class="elementor_notice"><th scope="row">Looking for the Style settings?</th><td>		<div id="elementor_notice">
+
+						<div>The Style settings changed its location and can now be found within Elementor Editor&#039;s <strong>Panel &gt; Hamburger Menu &gt; Site Settings</strong>.<br>You can use the Site Settings to make changes and see them live! <a target="_blank" href="http://go.elementor.com/panel-layout-settings">Learn More</a></div>
+									</div>
+		</td></tr></table></div><div id='tab-integrations' class='elementor-settings-form-page'><h2>Google Maps Embed API</h2>Google Maps Embed API is a free service by Google that allows embedding Google Maps in your site. For more details, visit Google Maps&#039; <a target="_blank" href="https://developers.google.com/maps/documentation/embed/get-api-key">Using API Keys</a> page.<table class="form-table"><tr class="elementor_google_maps_api_key"><th scope="row">API Key</th><td>		<input type="text" id="elementor_google_maps_api_key" name="elementor_google_maps_api_key" value="" class="regular-text"/>
+				</td></tr></table></div><div id='tab-advanced' class='elementor-settings-form-page'><table class="form-table"><tr class="elementor_css_print_method"><th scope="row">CSS Print Method</th><td>		<select name="elementor_css_print_method">
+			
+							<option value="external" selected='selected'>External File</option>
+							<option value="internal">Internal Embedding</option>
+					</select>
+
+					<p class="description"><div class="elementor-css-print-method-description" data-value="external">Use external CSS files for all generated stylesheets. Choose this setting for better performance (recommended).</div><div class="elementor-css-print-method-description" data-value="internal">Use internal CSS that is embedded in the head of the page. For troubleshooting server configuration conflicts and managing development environments.</div></p>
+			</td></tr><tr class="elementor_editor_break_lines"><th scope="row">Switch Editor Loader Method</th><td>		<select name="elementor_editor_break_lines">
+			
+							<option value="" selected='selected'>Disable</option>
+							<option value="1">Enable</option>
+					</select>
+
+					<p class="description">For troubleshooting server configuration conflicts.</p>
+			</td></tr><tr class="elementor_unfiltered_files_upload"><th scope="row">Enable Unfiltered File Uploads</th><td>		<select name="elementor_unfiltered_files_upload">
+			
+							<option value="" selected='selected'>Disable</option>
+							<option value="1">Enable</option>
+					</select>
+
+					<p class="description">Please note! Allowing uploads of any files (SVG &amp; JSON included) is a potential security risk.<br>Elementor will try to sanitize the unfiltered files, removing potential malicious code and scripts.<br>We recommend you only enable this feature if you understand the security risks involved.</p>
+			</td></tr><tr class="elementor_font_display"><th scope="row">Google Fonts Load</th><td>		<select name="elementor_font_display">
+			
+							<option value="auto" selected='selected'>Default</option>
+							<option value="block">Blocking</option>
+							<option value="swap">Swap</option>
+							<option value="fallback">Fallback</option>
+							<option value="optional">Optional</option>
+					</select>
+
+					<p class="description">Font-display property defines how font files are loaded and displayed by the browser.<br>Set the way Google Fonts are being loaded by selecting the font-display property (Default: Auto).</p>
+			</td></tr><tr class="elementor_load_fa4_shim"><th scope="row">Load Font Awesome 4 Support</th><td>		<select name="elementor_load_fa4_shim">
+			
+							<option value="" selected='selected'>No</option>
+							<option value="yes">Yes</option>
+					</select>
+
+					<p class="description">Font Awesome 4 support script (shim.js) is a script that makes sure all previously selected Font Awesome 4 icons are displayed correctly while using Font Awesome 5 library.</p>
+			</td></tr></table></div><div id='tab-experiments' class='elementor-settings-form-page'>		<h2>Experiments</h2>
+		<p>
+			Access new and experimental features from Elementor before they&#039;re officially released. As these features are still in development, they are likely to change, evolve or even be removed altogether. <a href="https://go.elementor.com/wp-dash-experiments/" target="_blank">Learn More.</a>		</p>
+		<p>To use an experiment on your site, simply click on the dropdown next to it and switch to Active. You can always deactivate them at any time.</p>
+		<p>
+			Your feedback is important - <a href="https://go.elementor.com/wp-dash-experiments-report-an-issue/" target="_blank">help us</a> improve these features by sharing your thoughts and inputs.		</p>
+		<table class="form-table"><tr class="elementor_experiment-e_dom_optimization"><th scope="row">		<div class="e-experiment__title">
+			<div class="e-experiment__title__indicator e-experiment__title__indicator--active" data-tooltip="Active by default"></div>
+			<label class="e-experiment__title__label" for="e-experiment-e_dom_optimization">Optimized DOM Output</label>
+		</div>
+		</th><td>		<div class="e-experiment__content">
+			<select id="e-experiment-e_dom_optimization" class="e-experiment__select" name="elementor_experiment-e_dom_optimization">
+									<option value="default"  selected='selected'>Default</option>
+									<option value="active" >Active</option>
+									<option value="inactive" >Inactive</option>
+							</select>
+			<p class="description">Developers, Please Note! This experiment includes some markup changes. If you&#039;ve used custom code in Elementor, you might have experienced a snippet of code not running. Turning this experiment off allows you to keep prior Elementor markup output settings, and have that lovely code running again. <a href="https://go.elementor.com/wp-dash-legacy-optimized-dom" target="_blank">Learn More</a></p>
+			<div class="e-experiment__status">Status: Beta</div>
+		</div>
+		</td></tr><tr class="elementor_experiment-e_optimized_assets_loading"><th scope="row">		<div class="e-experiment__title">
+			<div class="e-experiment__title__indicator" data-tooltip="Inactive by default"></div>
+			<label class="e-experiment__title__label" for="e-experiment-e_optimized_assets_loading">Improved Asset Loading</label>
+		</div>
+		</th><td>		<div class="e-experiment__content">
+			<select id="e-experiment-e_optimized_assets_loading" class="e-experiment__select" name="elementor_experiment-e_optimized_assets_loading">
+									<option value="default"  selected='selected'>Default</option>
+									<option value="active" >Active</option>
+									<option value="inactive" >Inactive</option>
+							</select>
+			<p class="description">Please Note! The &quot;Improved Asset Loading&quot; mode reduces the amount of code that is loaded on the page by default. When activated, parts of the infrastructure code will be loaded dynamically, only when needed. Keep in mind that activating this experiment may cause conflicts with incompatible plugins. <a href="https://go.elementor.com/wp-dash-improved-asset-loading/" target="_blank">Learn More</a></p>
+			<div class="e-experiment__status">Status: Alpha</div>
+		</div>
+		</td></tr><tr class="elementor_experiment-e_optimized_css_loading"><th scope="row">		<div class="e-experiment__title">
+			<div class="e-experiment__title__indicator" data-tooltip="Inactive by default"></div>
+			<label class="e-experiment__title__label" for="e-experiment-e_optimized_css_loading">Improved CSS Loading</label>
+		</div>
+		</th><td>		<div class="e-experiment__content">
+			<select id="e-experiment-e_optimized_css_loading" class="e-experiment__select" name="elementor_experiment-e_optimized_css_loading">
+									<option value="default"  selected='selected'>Default</option>
+									<option value="active" >Active</option>
+									<option value="inactive" >Inactive</option>
+							</select>
+			<p class="description">Please Note! The “Improved CSS Loading” mode reduces the amount of CSS code that is loaded on the page by default. When activated, the CSS code will be loaded, rather inline or in a dedicated file, only when needed. Activating this experiment may cause conflicts with incompatible plugins. <a href="https://go.elementor.com/wp-dash-improved-css-loading/" target="_blank">Learn More</a></p>
+			<div class="e-experiment__status">Status: Alpha</div>
+		</div>
+		</td></tr><tr class="elementor_experiment-e_font_icon_svg"><th scope="row">		<div class="e-experiment__title">
+			<div class="e-experiment__title__indicator" data-tooltip="Inactive by default"></div>
+			<label class="e-experiment__title__label" for="e-experiment-e_font_icon_svg">Font-Awesome Inline</label>
+		</div>
+		</th><td>		<div class="e-experiment__content">
+			<select id="e-experiment-e_font_icon_svg" class="e-experiment__select" name="elementor_experiment-e_font_icon_svg">
+									<option value="default"  selected='selected'>Default</option>
+									<option value="active" >Active</option>
+									<option value="inactive" >Inactive</option>
+							</select>
+			<p class="description">The &quot;Font-Awesome Inline&quot; will render the Font-Awesome icons as inline SVG without loading the Font-Awesome library and its related CSS files and fonts. <a href="https://go.elementor.com/wp-dash-inline-font-awesome/" target="_blank">Learn More</a></p>
+			<div class="e-experiment__status">Status: Alpha</div>
+		</div>
+		</td></tr><tr class="elementor_experiment-a11y_improvements"><th scope="row">		<div class="e-experiment__title">
+			<div class="e-experiment__title__indicator e-experiment__title__indicator--active" data-tooltip="Active by default"></div>
+			<label class="e-experiment__title__label" for="e-experiment-a11y_improvements">Accessibility Improvements</label>
+		</div>
+		</th><td>		<div class="e-experiment__content">
+			<select id="e-experiment-a11y_improvements" class="e-experiment__select" name="elementor_experiment-a11y_improvements">
+									<option value="default"  selected='selected'>Default</option>
+									<option value="active" >Active</option>
+									<option value="inactive" >Inactive</option>
+							</select>
+			<p class="description">An array of accessibility enhancements in Elementor pages.<br><strong>Please note!</strong> These enhancements may include some markup changes to existing elementor widgets <a href="https://go.elementor.com/wp-dash-a11y-improvements" target="_blank">Learn More</a></p>
+			<div class="e-experiment__status">Status: Beta</div>
+		</div>
+		</td></tr><tr class="elementor_experiment-e_import_export"><th scope="row">		<div class="e-experiment__title">
+			<div class="e-experiment__title__indicator e-experiment__title__indicator--active" data-tooltip="Active by default"></div>
+			<label class="e-experiment__title__label" for="e-experiment-e_import_export">Import Export Template Kit</label>
+		</div>
+		</th><td>		<div class="e-experiment__content">
+			<select id="e-experiment-e_import_export" class="e-experiment__select" name="elementor_experiment-e_import_export">
+									<option value="default"  selected='selected'>Default</option>
+									<option value="active" >Active</option>
+									<option value="inactive" >Inactive</option>
+							</select>
+			<p class="description">Design sites faster with a template kit that contains some or all components of a complete site, like templates, content &amp; site settings.<br>You can import a kit and apply it to your site, or export the elements from this site to be used anywhere else.</p>
+			<div class="e-experiment__status">Status: Beta</div>
+		</div>
+		</td></tr><tr class="elementor_experiment-additional_custom_breakpoints"><th scope="row">		<div class="e-experiment__title">
+			<div class="e-experiment__title__indicator e-experiment__title__indicator--active" data-tooltip="Active by default"></div>
+			<label class="e-experiment__title__label" for="e-experiment-additional_custom_breakpoints">Additional Custom Breakpoints</label>
+		</div>
+		</th><td>		<div class="e-experiment__content">
+			<select id="e-experiment-additional_custom_breakpoints" class="e-experiment__select" name="elementor_experiment-additional_custom_breakpoints">
+									<option value="default"  selected='selected'>Default</option>
+									<option value="active" >Active</option>
+									<option value="inactive" >Inactive</option>
+							</select>
+			<p class="description">Get pixel-perfect design for every screen size. You can now add up to 6 customizable breakpoints beyond the default desktop setting: mobile, mobile extra, tablet, tablet extra, laptop, and widescreen.<br /><strong>Please note! Conditioning controls on values of responsive controls is not supported when this mode is active.</strong> <a href="https://go.elementor.com/wp-dash-additional-custom-breakpoints/" target="_blank">Learn More</a></p>
+			<div class="e-experiment__status">Status: Beta</div>
+		</div>
+		</td></tr><tr class="elementor_experiment-landing-pages"><th scope="row">		<div class="e-experiment__title">
+			<div class="e-experiment__title__indicator e-experiment__title__indicator--active" data-tooltip="Active by default"></div>
+			<label class="e-experiment__title__label" for="e-experiment-landing-pages">Landing Pages</label>
+		</div>
+		</th><td>		<div class="e-experiment__content">
+			<select id="e-experiment-landing-pages" class="e-experiment__select" name="elementor_experiment-landing-pages">
+									<option value="default"  selected='selected'>Default</option>
+									<option value="active" >Active</option>
+									<option value="inactive" >Inactive</option>
+							</select>
+			<p class="description">Adds a new Elementor content type that allows creating beautiful landing pages instantly in a streamlined workflow.</p>
+			<div class="e-experiment__status">Status: Beta</div>
+		</div>
+		</td></tr><tr class="elementor_experiment-elements-color-picker"><th scope="row">		<div class="e-experiment__title">
+			<div class="e-experiment__title__indicator e-experiment__title__indicator--active" data-tooltip="Active by default"></div>
+			<label class="e-experiment__title__label" for="e-experiment-elements-color-picker">Color Sampler</label>
+		</div>
+		</th><td>		<div class="e-experiment__content">
+			<select id="e-experiment-elements-color-picker" class="e-experiment__select" name="elementor_experiment-elements-color-picker">
+									<option value="default"  selected='selected'>Default</option>
+									<option value="active" >Active</option>
+									<option value="inactive" >Inactive</option>
+							</select>
+			<p class="description">Adds a new color picker functionality that allows choose a color from other elements settings.</p>
+			<div class="e-experiment__status">Status: Beta</div>
+		</div>
+		</td></tr><tr class="elementor_experiment-admin-top-bar"><th scope="row">		<div class="e-experiment__title">
+			<div class="e-experiment__title__indicator e-experiment__title__indicator--active" data-tooltip="Active by default"></div>
+			<label class="e-experiment__title__label" for="e-experiment-admin-top-bar">Admin Top Bar</label>
+		</div>
+		</th><td>		<div class="e-experiment__content">
+			<select id="e-experiment-admin-top-bar" class="e-experiment__select" name="elementor_experiment-admin-top-bar">
+									<option value="default"  selected='selected'>Default</option>
+									<option value="active" >Active</option>
+									<option value="inactive" >Inactive</option>
+							</select>
+			<p class="description">Adds a top bar to elementors pages in admin area.</p>
+			<div class="e-experiment__status">Status: Beta</div>
+		</div>
+		</td></tr><tr class="elementor_allow_tracking"><th scope="row">Usage Data Sharing</th><td>		<label>
+			<input type="checkbox" id="elementor_allow_tracking" name="elementor_allow_tracking" value="yes" />
+			Become a super contributor by opting in to share non-sensitive plugin data and to receive periodic email updates from us. <a href="https://go.elementor.com/usage-data-tracking/" target="_blank">Learn more.</a>		</label>
+		</td></tr></table></div><p class="submit"><input type="submit" name="submit" id="submit" class="button button-primary" value="Save Changes"  /></p>			</form>
+		</div><!-- /.wrap -->
+		
+<div class="clear"></div></div><!-- wpbody-content -->
+<div class="clear"></div></div><!-- wpbody -->
+<div class="clear"></div></div><!-- wpcontent -->
+
+<div id="wpfooter" role="contentinfo">
+		<p id="footer-left" class="alignleft">
+		Enjoyed <strong>Elementor</strong>? Please leave us a <a href="https://go.elementor.com/admin-review/" target="_blank">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. We really appreciate your support!	</p>
+	<p id="footer-upgrade" class="alignright">
+		Version 5.8.2	</p>
+	<div class="clear"></div>
+</div>
+
+<script type="text/template" id="tmpl-ast-image-skeleton">
+	<div class="ast-image__skeleton-wrap">
+		<div class="ast-image__skeleton-inner-wrap">
+			<div class="ast-image__skeleton">
+			</div>
+			<div class="ast-image__preview-skeleton">
+			</div>
+		</div>
+	</div>
+	<div class="ast-image__loader-wrap">
+		<div class="ast-image__loader-1"></div>
+		<div class="ast-image__loader-2"></div>
+		<div class="ast-image__loader-3"></div>
+	</div>
+</script>
+
+<script type="text/template" id="tmpl-ast-image-list">
+
+	<# var count = 0; #>
+		<# for ( key in data ) { count++; #>
+			<# var is_imported = _.includes( astraImages.saved_images, data[key]['id'] ); #>
+			<# var imported_class = ( is_imported ) ? 'imported' : ''; #>
+			<div class="ast-image__list-wrap loading" data-id="{{data[key]['id']}}" data-url="{{data[key]['pageURL']}}">
+				<div class="ast-image__list-inner-wrap {{imported_class}}">
+					<div class="ast-image__list-img-wrap">
+						<img src="{{data[key]['webformatURL']}}" alt="{{data[key]['tags']}}" />
+						<div class="ast-image__list-img-overlay" data-img-url={{data[key]['largeImageURL']}} data-img-id={{data[key]['id']}}>
+							<span>{{data[key]['tags']}}</span>
+							<# if ( '' === imported_class ) { #>
+							<span class="ast-image__download-icon dashicons-arrow-down-alt dashicons" data-import-status={{is_imported}}></span>
+							<# } #>
+						</div>
+					</div>
+				</div>
+			</div>
+		<# } #>
+		<# if ( 0 === count ) { #>
+			<div class="astra-sites-no-sites">
+				<h3>Sorry No Results Found.</h3>
+			</div>
+		<# } #>
+</script>
+
+<script type="text/template" id="tmpl-ast-image-filters">
+	<div class="ast-image__filter-wrap">
+		<ul class="ast-image__filter">
+			<li class="ast-image__filter-category">
+				<select>
+					<# for ( key in astraImages.pixabay_category ) { #>
+					<option value="{{key}}">{{astraImages.pixabay_category[key]}}</option>
+					<# } #>
+				</select>
+			</li>
+			<li class="ast-image__filter-orientation">
+				<select>
+					<# for ( key in astraImages.pixabay_orientation ) { #>
+					<option value=
