@@ -12,9 +12,7 @@
       <meta name=description content="Discription Here">
       <meta name=author content="Alpha-Design">
       <link rel="icon" href="#" type="image/png">
-
       <?php wp_head();?>
-
    </head>
    <body class="">
       <div class="wraper">
@@ -54,30 +52,30 @@
                      <div class="mobile_content">
                         <span class="close_menu"><img src="<?php echo $base ?>assets/img/icons/close.svg" alt=""></span>
                         <div class="mobile_search">
-                           <form action="#" id="mobileSearch" name="mobile search">
-                              <input type="search" placeholder="اكتب كلمة البحث">
-                              <button type="submit"><img src="<?php echo $base ?>assets/img/icons/ios-search-gray.svg" alt=""></button>
+                           <form action="<?php echo esc_url(home_url( '/' )); ?> " id="mobileSearch" name="mobile search" method="get">
+                              <input type="search"  id="search" value="<?php the_search_query(); ?>" name="s" placeholder="اكتب كلمة البحث">
+                              <button type="submit" id="searchsubmit"><img src="<?php echo $base ?>assets/img/icons/ios-search-gray.svg" alt=""></button>
                            </form>
                         </div>
                         <ul class="mobile_menu">
-                           <li><a href="#"><span class="meniTitle">الرئيسية</span></a></li>
-                           <li><a href="#"><span class="meniTitle">الأخبار</span></a></li>
-                           <li><a href="#"><span class="meniTitle">رياضة</span></a></li>
-                           <li><a href="#"><span class="meniTitle">مقالات</span></a></li>
-                           <li><a href="#"><span class="meniTitle">الرأي</span></a></li>
-                           <li><a href="#"><span class="meniTitle">تحقيقات</span></a></li>
-                           <li><a href="#"><span class="meniTitle">الفيديو</span></a></li>
-                           <li><a href="#"><span class="meniTitle">كورونا في الجزائر</span></a></li>
+                    
+                           <?php 
+                        wp_nav_menu([
+                            'theme_location' => 'top-menu',
+                            'container' => 'mobile_menu',
+                            'menu_class' => 'meniTitle',
+                        ]);
+                        ?>
                         </ul>
                         <div class="mobile_poster">
                            <a href="#"><img src="<?php echo $base ?>assets/img/newsBanar.png" alt=""></a>
                         </div>
+
                         <ul  class="social_links">
-                           <li><a href="#"><img src="<?php echo $base ?>assets/img/social/youtube.svg" alt=""></a></li>
-                           <li><a href="#"><img src="<?php echo $base ?>assets/img/social/twitter.svg" alt=""></a></li>
-                           <li><a href="#"><img src="<?php echo $base ?>assets/img/social/instagram.svg" alt=""></a></li>
-                           <li><a href="#"><img src="<?php echo $base ?>assets/img/social/facebook.svg" alt=""></a></li>
-                        </ul>
+
+                      <?php get_template_part('partials/sociale-media-links'); ?>
+
+                      </ul>
                      </div>
                      <!-- /.mobile_content -->
                   </div>
@@ -169,30 +167,75 @@
                   </div>
                </div>
             </div>
+
+
+      
             <!-- /.header_top -->
-            <div class="header_bottom mobileNone">
+            <div class="header_bottom mobileNone" id="breaking-news">
                <div class="container">
-                  <div class="newsTopBox cw">
+               <?php
+
+                     $query_news = new WP_Query( array(
+                              'post_type' => 'post',
+                              'posts_per_page' => 3,
+                              'meta_key' => 'breaking_news_meta_key',
+                              'order' => 'DESC',
+                              ) );
+
+                              ?>
+
+
+
+
+
+                  <div class="newsTopBox cw" id="news">
                      <h3   class="urgetnTag cw">
                         عاجل
                      </h3>
+
+                  
                      <div class="swiper-container newsTopSlider">
                         <ul  class="swiper-wrapper">
-                           <li class="sNewsSlide cw swiper-slide">
-                              <a href="#">الحكومة تكشف شروط استيراد السيارات أقل منن 3 سنوات</a>
-                           </li>
-                           <li class="sNewsSlide cw swiper-slide">
-                              <a href="#">الحكومة تكشف شروط استيراد السيارات أقل منن 3 سنوات</a>
-                           </li>
-                           <li class="sNewsSlide cw swiper-slide">
-                              <a href="#">الحكومة تكشف شروط استيراد السيارات أقل منن 3 سنوات</a>
-                           </li>
+                 
+
+                      <?php  if ( $query_news->have_posts() ) : ?>
+
+                             
+                              <?php while ( $query_news->have_posts() ) : $query_news->the_post();?>
+
+
+        
+
+
+                              <li class="sNewsSlide cw swiper-slide" data-status-news="<?php echo get_post_meta(get_the_ID(),'breaking_news_meta_key',true)?>">
+                              <a href="<?php the_permalink()?>"><?php the_title() ?></a>
+                              </li>
+
+
+
+
+
+                  <?php endwhile;
+                   endif;    
+
+                  wp_reset_postdata(); ?>
+          
+                  
+
+
+
+
                         </ul>
                         <div class="swiper-button-next"><img src="<?php echo $base ?>assets/img/icons/chevron-left.svg" alt=""></div>
                         <div class="swiper-button-prev"><img src="<?php echo $base ?>assets/img/icons/chevron-right.svg" alt=""></div>
                      </div>
+
                   </div>
                </div>
             </div>
+
+
+
             <!-- /.header_bottom -->
          </header>
+

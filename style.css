@@ -1,3 +1,22 @@
+
+/*
+
+Theme name: WP Course
+Theme URI: https://fjobeir.com
+Author: Feras Jobeir
+Author URI: https://fb.com/ferasjobeir
+License: GNU GPL v2
+License URI: http://gnu.org/licenses/gpl-2.0.html
+Description: This is an amazing Theme
+Version: 1.0
+Tags: blog, two-columns
+Text domain: wpc
+Tested up to: 5.7.2
+Requires PHP: 5.6
+
+*/
+
+
 /*Global CSS Start*/
 
 /*
@@ -2527,12 +2546,29 @@ blockquote.blockquote:after {
 }
 
 .coment_options li {
-    width: 33.333%;
-    padding: 12px;
-    min-width: 240px;
+    padding-right:13px;
+    padding-left:0px;
+
+    padding-bottom:12px;
 }
 
-.coment_options li a {
+
+.in_field {
+    font-size: 20px;
+    color: #C4C4C4;
+    border: 1px solid #C4C4C4;
+    display: block;
+    padding: 9px 17px;
+    -webkit-transition: .3s ease all;
+    -o-transition: .3s ease all;
+    transition: .3s ease all;
+    cursor: unset;
+    float: right;
+    margin-left: 13px;
+}
+
+
+.coment_options li input{
     font-size: 20px;
     color: #C4C4C4;
     border: 1px solid #C4C4C4;
@@ -2544,7 +2580,10 @@ blockquote.blockquote:after {
     cursor: unset;
 }
 
-.coment_options li a.redBorder {
+
+
+
+.coment_options li input.redBorder {
     background: #FF0000 !important;
     color: #fff;
     border-color: #FF0000;
@@ -2564,6 +2603,12 @@ blockquote.blockquote:after {
     background: #C4C4C4;
     z-index: -1;
 }
+
+
+
+
+
+
 
 .coment_options li a.redBorder:hover {
     color: #000;
@@ -2587,14 +2632,14 @@ blockquote.blockquote:after {
     margin-left: 13px;
 }
 
-.singleComent h4 {
+.comentsArea  h4 {
     font-weight: 400;
     font-size: 20px;
     font-family: 'Awras-Emir';
     margin-bottom: 8px;
 }
 
-.singleComent h5 {
+.comentsArea  h5 {
     color: #A5A5A5 !important;
     font-family: 'Awras-Emir';
     margin-bottom: 23px;
@@ -2612,6 +2657,7 @@ ul.coment_like_share {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 38px;
+    margin-bottom: 20px;
 }
 
 ul.coment_like_share li {
@@ -2634,20 +2680,38 @@ ul.coment_like_share li {
     padding-right: 7px;
 }
 
-.replayComents .media {
-    padding-bottom: 37px;
-    border-bottom: 1px solid #EAEAEA;
-    margin-bottom: 36px;
-}
+
 
 .replayComents .media:last-child {
     border-bottom: 0;
 }
 
-.media.singleComent {
+.comentsArea .depth-1 {
     border-bottom: 1px solid #EAEAEA;
     margin-bottom: 25px;
 }
+
+.comentsArea .depth-2{
+    border-right: 1px solid #EAEAEA;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 20px;
+
+}
+
+
+.comentsArea .depth-3{
+    border-right: 1px solid #EAEAEA;
+    padding-right: 10px;
+    margin-right: 10px;
+
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 20px;
+
+}
+
+
 
 .media.singleComent:last-child {margin-bottom: 0;border-bottom: 0;}
 

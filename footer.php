@@ -11,18 +11,19 @@
                               <a href="#" class="footerLogo"><img class="w-logo" src="<?php echo $base ?>assets/img/logoAwras.svg" alt="Logo"><img class="d-logo" src="<?php echo $base ?>assets/img/d-logoAwras.svg" alt="Logo"></a>
                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-4">
-                           <div class="quickLinksWidget">
-                              <h3  >من نحن؟</h3>
-                              <ul  class="quickLinks">
-                                 <li><a href="#">عن أوراس</a></li>
-                                 <li><a href="#">سياسة الخصوصية</a></li>
-                                 <li><a href="#">معلومات قانونية</a></li>
-                                 <li><a href="#">تواصل معنا</a></li>
-                                 <li><a href="#">الإشهار في موقعنا</a></li>
-                              </ul>
-                           </div>
+
+
+                        <?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
+                           <div class="col-lg-4 col-md-4">
+                           <?php dynamic_sidebar( 'footer-1' ); ?>
+
                         </div>
+
+
+<?php endif; ?>
+
+
+
                         <div class="col-lg-4 col-md-4">
                            <div class="quickLinksWidget">
                               <h3  >شبكات التواصل</h3>
